@@ -13,10 +13,10 @@
 		98346D741B73DABA0004FC4C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98346D731B73DABA0004FC4C /* Images.xcassets */; };
 		98346D771B73DABA0004FC4C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98346D751B73DABA0004FC4C /* LaunchScreen.xib */; };
 		98346D831B73DABA0004FC4C /* EYFlatKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98346D821B73DABA0004FC4C /* EYFlatKitTests.swift */; };
-		98346D961B73DD5B0004FC4C /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98346D911B73DD5B0004FC4C /* UIColorExtension.swift */; };
 		98346D9A1B73DE720004FC4C /* EYFlatColorConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98346D991B73DE720004FC4C /* EYFlatColorConstant.swift */; };
 		98346D9C1B73EC2E0004FC4C /* EYFlatKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98346D9B1B73EC2E0004FC4C /* EYFlatKit.swift */; };
 		98346D9E1B73FADF0004FC4C /* UIImage+EYColorImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98346D9D1B73FADF0004FC4C /* UIImage+EYColorImage.swift */; };
+		98346DA11B783E1B0004FC4C /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98346DA01B783E1B0004FC4C /* UIColorExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,10 +40,10 @@
 		98346D7C1B73DABA0004FC4C /* EYFlatKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EYFlatKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		98346D811B73DABA0004FC4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		98346D821B73DABA0004FC4C /* EYFlatKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EYFlatKitTests.swift; sourceTree = "<group>"; };
-		98346D911B73DD5B0004FC4C /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		98346D991B73DE720004FC4C /* EYFlatColorConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EYFlatColorConstant.swift; sourceTree = "<group>"; };
 		98346D9B1B73EC2E0004FC4C /* EYFlatKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EYFlatKit.swift; sourceTree = "<group>"; };
 		98346D9D1B73FADF0004FC4C /* UIImage+EYColorImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+EYColorImage.swift"; sourceTree = "<group>"; };
+		98346DA01B783E1B0004FC4C /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,8 +85,8 @@
 		98346D691B73DABA0004FC4C /* EYFlatKit */ = {
 			isa = PBXGroup;
 			children = (
+				98346D9F1B783E1B0004FC4C /* vendor */,
 				98346D981B73DE130004FC4C /* Consts */,
-				98346D8C1B73DD5B0004FC4C /* UIColor-Hex-Swift */,
 				98346D6C1B73DABA0004FC4C /* AppDelegate.swift */,
 				98346D6E1B73DABA0004FC4C /* ViewController.swift */,
 				98346D701B73DABA0004FC4C /* Main.storyboard */,
@@ -124,21 +124,20 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		98346D8C1B73DD5B0004FC4C /* UIColor-Hex-Swift */ = {
-			isa = PBXGroup;
-			children = (
-				98346D911B73DD5B0004FC4C /* UIColorExtension.swift */,
-			);
-			name = "UIColor-Hex-Swift";
-			path = "vendor/UIColor-Hex-Swift";
-			sourceTree = "<group>";
-		};
 		98346D981B73DE130004FC4C /* Consts */ = {
 			isa = PBXGroup;
 			children = (
 				98346D991B73DE720004FC4C /* EYFlatColorConstant.swift */,
 			);
 			path = Consts;
+			sourceTree = "<group>";
+		};
+		98346D9F1B783E1B0004FC4C /* vendor */ = {
+			isa = PBXGroup;
+			children = (
+				98346DA01B783E1B0004FC4C /* UIColorExtension.swift */,
+			);
+			path = vendor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,7 +245,7 @@
 				98346D6D1B73DABA0004FC4C /* AppDelegate.swift in Sources */,
 				98346D9E1B73FADF0004FC4C /* UIImage+EYColorImage.swift in Sources */,
 				98346D9A1B73DE720004FC4C /* EYFlatColorConstant.swift in Sources */,
-				98346D961B73DD5B0004FC4C /* UIColorExtension.swift in Sources */,
+				98346DA11B783E1B0004FC4C /* UIColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
