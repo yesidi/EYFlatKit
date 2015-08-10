@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		98346D6D1B73DABA0004FC4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98346D6C1B73DABA0004FC4C /* AppDelegate.swift */; };
+		98346D6F1B73DABA0004FC4C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98346D6E1B73DABA0004FC4C /* ViewController.swift */; };
+		98346D721B73DABA0004FC4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98346D701B73DABA0004FC4C /* Main.storyboard */; };
+		98346D741B73DABA0004FC4C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98346D731B73DABA0004FC4C /* Images.xcassets */; };
+		98346D771B73DABA0004FC4C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98346D751B73DABA0004FC4C /* LaunchScreen.xib */; };
+		98346D831B73DABA0004FC4C /* EYFlatKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98346D821B73DABA0004FC4C /* EYFlatKitTests.swift */; };
+		98346D961B73DD5B0004FC4C /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98346D911B73DD5B0004FC4C /* UIColorExtension.swift */; };
+		98346D9A1B73DE720004FC4C /* EYFlatColorConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98346D991B73DE720004FC4C /* EYFlatColorConstant.swift */; };
+		98346D9C1B73EC2E0004FC4C /* EYFlatKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98346D9B1B73EC2E0004FC4C /* EYFlatKit.swift */; };
+		98346D9E1B73FADF0004FC4C /* UIImage+EYColorImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98346D9D1B73FADF0004FC4C /* UIImage+EYColorImage.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		98346D7D1B73DABA0004FC4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98346D5F1B73DABA0004FC4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98346D661B73DABA0004FC4C;
+			remoteInfo = EYFlatKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		98346D671B73DABA0004FC4C /* EYFlatKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EYFlatKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		98346D6B1B73DABA0004FC4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98346D6C1B73DABA0004FC4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		98346D6E1B73DABA0004FC4C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		98346D711B73DABA0004FC4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		98346D731B73DABA0004FC4C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		98346D761B73DABA0004FC4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		98346D7C1B73DABA0004FC4C /* EYFlatKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EYFlatKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98346D811B73DABA0004FC4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98346D821B73DABA0004FC4C /* EYFlatKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EYFlatKitTests.swift; sourceTree = "<group>"; };
+		98346D911B73DD5B0004FC4C /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		98346D991B73DE720004FC4C /* EYFlatColorConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EYFlatColorConstant.swift; sourceTree = "<group>"; };
+		98346D9B1B73EC2E0004FC4C /* EYFlatKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EYFlatKit.swift; sourceTree = "<group>"; };
+		98346D9D1B73FADF0004FC4C /* UIImage+EYColorImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+EYColorImage.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98346D641B73DABA0004FC4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98346D791B73DABA0004FC4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		98346D5E1B73DABA0004FC4C = {
+			isa = PBXGroup;
+			children = (
+				98346D691B73DABA0004FC4C /* EYFlatKit */,
+				98346D7F1B73DABA0004FC4C /* EYFlatKitTests */,
+				98346D681B73DABA0004FC4C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		98346D681B73DABA0004FC4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98346D671B73DABA0004FC4C /* EYFlatKit.app */,
+				98346D7C1B73DABA0004FC4C /* EYFlatKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98346D691B73DABA0004FC4C /* EYFlatKit */ = {
+			isa = PBXGroup;
+			children = (
+				98346D981B73DE130004FC4C /* Consts */,
+				98346D8C1B73DD5B0004FC4C /* UIColor-Hex-Swift */,
+				98346D6C1B73DABA0004FC4C /* AppDelegate.swift */,
+				98346D6E1B73DABA0004FC4C /* ViewController.swift */,
+				98346D701B73DABA0004FC4C /* Main.storyboard */,
+				98346D731B73DABA0004FC4C /* Images.xcassets */,
+				98346D751B73DABA0004FC4C /* LaunchScreen.xib */,
+				98346D6A1B73DABA0004FC4C /* Supporting Files */,
+				98346D9B1B73EC2E0004FC4C /* EYFlatKit.swift */,
+				98346D9D1B73FADF0004FC4C /* UIImage+EYColorImage.swift */,
+			);
+			path = EYFlatKit;
+			sourceTree = "<group>";
+		};
+		98346D6A1B73DABA0004FC4C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				98346D6B1B73DABA0004FC4C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		98346D7F1B73DABA0004FC4C /* EYFlatKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				98346D821B73DABA0004FC4C /* EYFlatKitTests.swift */,
+				98346D801B73DABA0004FC4C /* Supporting Files */,
+			);
+			path = EYFlatKitTests;
+			sourceTree = "<group>";
+		};
+		98346D801B73DABA0004FC4C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				98346D811B73DABA0004FC4C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		98346D8C1B73DD5B0004FC4C /* UIColor-Hex-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				98346D911B73DD5B0004FC4C /* UIColorExtension.swift */,
+			);
+			name = "UIColor-Hex-Swift";
+			path = "vendor/UIColor-Hex-Swift";
+			sourceTree = "<group>";
+		};
+		98346D981B73DE130004FC4C /* Consts */ = {
+			isa = PBXGroup;
+			children = (
+				98346D991B73DE720004FC4C /* EYFlatColorConstant.swift */,
+			);
+			path = Consts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98346D661B73DABA0004FC4C /* EYFlatKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98346D861B73DABA0004FC4C /* Build configuration list for PBXNativeTarget "EYFlatKit" */;
+			buildPhases = (
+				98346D631B73DABA0004FC4C /* Sources */,
+				98346D641B73DABA0004FC4C /* Frameworks */,
+				98346D651B73DABA0004FC4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EYFlatKit;
+			productName = EYFlatKit;
+			productReference = 98346D671B73DABA0004FC4C /* EYFlatKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		98346D7B1B73DABA0004FC4C /* EYFlatKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98346D891B73DABA0004FC4C /* Build configuration list for PBXNativeTarget "EYFlatKitTests" */;
+			buildPhases = (
+				98346D781B73DABA0004FC4C /* Sources */,
+				98346D791B73DABA0004FC4C /* Frameworks */,
+				98346D7A1B73DABA0004FC4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98346D7E1B73DABA0004FC4C /* PBXTargetDependency */,
+			);
+			name = EYFlatKitTests;
+			productName = EYFlatKitTests;
+			productReference = 98346D7C1B73DABA0004FC4C /* EYFlatKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98346D5F1B73DABA0004FC4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = eddieyip;
+				TargetAttributes = {
+					98346D661B73DABA0004FC4C = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					98346D7B1B73DABA0004FC4C = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 98346D661B73DABA0004FC4C;
+					};
+				};
+			};
+			buildConfigurationList = 98346D621B73DABA0004FC4C /* Build configuration list for PBXProject "EYFlatKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 98346D5E1B73DABA0004FC4C;
+			productRefGroup = 98346D681B73DABA0004FC4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98346D661B73DABA0004FC4C /* EYFlatKit */,
+				98346D7B1B73DABA0004FC4C /* EYFlatKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98346D651B73DABA0004FC4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98346D721B73DABA0004FC4C /* Main.storyboard in Resources */,
+				98346D771B73DABA0004FC4C /* LaunchScreen.xib in Resources */,
+				98346D741B73DABA0004FC4C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98346D7A1B73DABA0004FC4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98346D631B73DABA0004FC4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98346D6F1B73DABA0004FC4C /* ViewController.swift in Sources */,
+				98346D9C1B73EC2E0004FC4C /* EYFlatKit.swift in Sources */,
+				98346D6D1B73DABA0004FC4C /* AppDelegate.swift in Sources */,
+				98346D9E1B73FADF0004FC4C /* UIImage+EYColorImage.swift in Sources */,
+				98346D9A1B73DE720004FC4C /* EYFlatColorConstant.swift in Sources */,
+				98346D961B73DD5B0004FC4C /* UIColorExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98346D781B73DABA0004FC4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98346D831B73DABA0004FC4C /* EYFlatKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		98346D7E1B73DABA0004FC4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98346D661B73DABA0004FC4C /* EYFlatKit */;
+			targetProxy = 98346D7D1B73DABA0004FC4C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		98346D701B73DABA0004FC4C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98346D711B73DABA0004FC4C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		98346D751B73DABA0004FC4C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98346D761B73DABA0004FC4C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		98346D841B73DABA0004FC4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		98346D851B73DABA0004FC4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98346D871B73DABA0004FC4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EYFlatKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		98346D881B73DABA0004FC4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EYFlatKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		98346D8A1B73DABA0004FC4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EYFlatKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EYFlatKit.app/EYFlatKit";
+			};
+			name = Debug;
+		};
+		98346D8B1B73DABA0004FC4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EYFlatKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EYFlatKit.app/EYFlatKit";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98346D621B73DABA0004FC4C /* Build configuration list for PBXProject "EYFlatKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98346D841B73DABA0004FC4C /* Debug */,
+				98346D851B73DABA0004FC4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98346D861B73DABA0004FC4C /* Build configuration list for PBXNativeTarget "EYFlatKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98346D871B73DABA0004FC4C /* Debug */,
+				98346D881B73DABA0004FC4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98346D891B73DABA0004FC4C /* Build configuration list for PBXNativeTarget "EYFlatKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98346D8A1B73DABA0004FC4C /* Debug */,
+				98346D8B1B73DABA0004FC4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98346D5F1B73DABA0004FC4C /* Project object */;
+}
