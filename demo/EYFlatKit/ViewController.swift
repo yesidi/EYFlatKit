@@ -35,7 +35,20 @@ class ViewController: UIViewController {
         var eybtnD = EYFlatButton(title: "hello world", color: EYFlatColorType.carrot, cornerRedius: 5, frame: CGRect(origin: CGPoint(x: 44, y: 44), size: CGSize(width: 180, height: 40)))
         eybtnD.center = CGPoint(x: self.view.center.x, y: self.view.center.y + 160)
         eybtnD.enabled  = false
-        self.view.addSubview(eybtnD)
+        
+        var textField = EYFlatTextField(isShowPath: true, pathColor: UIColor(rgba: EYFlatColorType.sunFlower.rawValue), placeText: "HelloWorld", frame: CGRect(origin: CGPoint(x: 44, y: 44), size: CGSize(width: 180, height: 40)))
+        textField.tag = 13
+        textField.center = CGPoint(x: self.view.center.x, y: self.view.center.y - 240)
+        textField.placeholder = "helloWorld"
+        self.view.addSubview(textField)
+        
+        let tapGes:UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: Selector("tap:"))
+        
+        self.view.addGestureRecognizer(tapGes)
+    }
+    
+    func tap(sender:AnyObject) {
+        self.view.viewWithTag(13)?.resignFirstResponder()
     }
 
     override func didReceiveMemoryWarning() {
